@@ -19,7 +19,7 @@ public class SearchRoute {
 	
 	//输入固定路线，查询出距离
 	public String searchDistanceByFixedRoute(LinkedList<String> stationList) {
-		int distance;
+		int distance; 
 		
 		DigraphDfs digraphDfs=new DigraphDfs(digraph,stationList);
 		
